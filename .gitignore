@@ -6,6 +6,19 @@
 # dotenv files
 .env
 
+# Ignorar las carpetas bin y obj
+API/bin/
+API/obj/
+
+# Ignorar archivos de base de datos
+API/dating.db
+API/dating.db-shm
+API/dating.db-wal
+
+# Otros archivos comunes que no deberían ser rastreados (si aplica)
+*.pdb
+*.dll
+*.exe
 # User-specific files
 *.rsuser
 *.suo
